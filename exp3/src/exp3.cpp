@@ -26,8 +26,7 @@ void convexLens(Mat src, Mat dst) {
 }
 
 int main() {
-    VideoCapture cap;
-    cap.open(0);
+    VideoCapture cap(0);
     Mat source, transformed;
     
     while (true) {
